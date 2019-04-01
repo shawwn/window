@@ -13,3 +13,5 @@
 
 @end
 
+
+extern int runNode(void);

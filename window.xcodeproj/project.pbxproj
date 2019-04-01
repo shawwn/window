@@ -8,11 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		215330E722430EBE006F4A48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 215330E622430EBE006F4A48 /* AppDelegate.m */; };
-		215330EA22430EBE006F4A48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215330E922430EBE006F4A48 /* ViewController.m */; };
+		215330EA22430EBE006F4A48 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 215330E922430EBE006F4A48 /* ViewController.mm */; };
 		215330ED22430EBE006F4A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215330EB22430EBE006F4A48 /* Main.storyboard */; };
 		215330EF22430EC0006F4A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215330EE22430EC0006F4A48 /* Assets.xcassets */; };
 		215330F222430EC0006F4A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215330F022430EC0006F4A48 /* LaunchScreen.storyboard */; };
-		215330F522430EC0006F4A48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 215330F422430EC0006F4A48 /* main.m */; };
+		215330F522430EC0006F4A48 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 215330F422430EC0006F4A48 /* main.mm */; };
+		21A1B80D2252BA6300F10E67 /* libv8_nosnapshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B7FB2252BA6300F10E67 /* libv8_nosnapshot.a */; };
+		21A1B80E2252BA6300F10E67 /* libhttp_parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B7FC2252BA6300F10E67 /* libhttp_parser.a */; };
+		21A1B80F2252BA6300F10E67 /* libcares.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B7FD2252BA6300F10E67 /* libcares.a */; };
+		21A1B8102252BA6300F10E67 /* libv8_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B7FE2252BA6300F10E67 /* libv8_base.a */; };
+		21A1B8112252BA6300F10E67 /* libv8_init.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B7FF2252BA6300F10E67 /* libv8_init.a */; };
+		21A1B8122252BA6300F10E67 /* libbrotli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8002252BA6300F10E67 /* libbrotli.a */; };
+		21A1B8132252BA6300F10E67 /* libv8_libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8012252BA6300F10E67 /* libv8_libplatform.a */; };
+		21A1B8142252BA6300F10E67 /* libv8_libsampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8022252BA6300F10E67 /* libv8_libsampler.a */; };
+		21A1B8152252BA6300F10E67 /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8032252BA6300F10E67 /* libopenssl.a */; };
+		21A1B8162252BA6300F10E67 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8042252BA6300F10E67 /* libuv.a */; };
+		21A1B8172252BA6300F10E67 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8052252BA6300F10E67 /* libzlib.a */; };
+		21A1B8182252BA6300F10E67 /* libv8_libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8062252BA6300F10E67 /* libv8_libbase.a */; };
+		21A1B8192252BA6300F10E67 /* libv8_initializers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8072252BA6300F10E67 /* libv8_initializers.a */; };
+		21A1B81A2252BA6300F10E67 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8082252BA6300F10E67 /* libgtest.a */; };
+		21A1B81B2252BA6300F10E67 /* libnode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B8092252BA6300F10E67 /* libnode.a */; };
+		21A1B81C2252BA6300F10E67 /* libllhttp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B80A2252BA6300F10E67 /* libllhttp.a */; };
+		21A1B81D2252BA6300F10E67 /* libnghttp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B80B2252BA6300F10E67 /* libnghttp2.a */; };
+		21A1B81E2252BA6300F10E67 /* libhistogram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A1B80C2252BA6300F10E67 /* libhistogram.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +38,66 @@
 		215330E522430EBE006F4A48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		215330E622430EBE006F4A48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		215330E822430EBE006F4A48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		215330E922430EBE006F4A48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		215330E922430EBE006F4A48 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		215330EC22430EBE006F4A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		215330EE22430EC0006F4A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		215330F122430EC0006F4A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215330F322430EC0006F4A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		215330F422430EC0006F4A48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		215330F422430EC0006F4A48 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		219ADC90224D306E003F7B80 /* libhistogram.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhistogram.a; path = "../../../../../Users/bb/node-ios/out/Debug/libhistogram.a"; sourceTree = "<group>"; };
+		219ADC91224D306E003F7B80 /* libv8_libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libbase.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_libbase.a"; sourceTree = "<group>"; };
+		219ADC92224D306E003F7B80 /* libv8_libplatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libplatform.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_libplatform.a"; sourceTree = "<group>"; };
+		219ADC93224D306E003F7B80 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "../../../../../Users/bb/node-ios/out/Debug/libzlib.a"; sourceTree = "<group>"; };
+		219ADC94224D306E003F7B80 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuv.a; path = "../../../../../Users/bb/node-ios/out/Debug/libuv.a"; sourceTree = "<group>"; };
+		219ADC95224D306E003F7B80 /* libv8_libsampler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libsampler.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_libsampler.a"; sourceTree = "<group>"; };
+		219ADC96224D306E003F7B80 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = "../../../../../Users/bb/node-ios/out/Debug/libgtest.a"; sourceTree = "<group>"; };
+		219ADC97224D306E003F7B80 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenssl.a; path = "../../../../../Users/bb/node-ios/out/Debug/libopenssl.a"; sourceTree = "<group>"; };
+		219ADC98224D306E003F7B80 /* libcares.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcares.a; path = "../../../../../Users/bb/node-ios/out/Debug/libcares.a"; sourceTree = "<group>"; };
+		219ADC99224D306E003F7B80 /* libv8_nosnapshot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_nosnapshot.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_nosnapshot.a"; sourceTree = "<group>"; };
+		219ADC9A224D306E003F7B80 /* libhttp_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhttp_parser.a; path = "../../../../../Users/bb/node-ios/out/Debug/libhttp_parser.a"; sourceTree = "<group>"; };
+		219ADC9B224D306E003F7B80 /* libnode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnode.a; path = "../../../../../Users/bb/node-ios/out/Debug/libnode.a"; sourceTree = "<group>"; };
+		219ADC9C224D306E003F7B80 /* libnghttp2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnghttp2.a; path = "../../../../../Users/bb/node-ios/out/Debug/libnghttp2.a"; sourceTree = "<group>"; };
+		219ADC9D224D306F003F7B80 /* libv8_initializers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_initializers.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_initializers.a"; sourceTree = "<group>"; };
+		219ADC9E224D306F003F7B80 /* libllhttp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libllhttp.a; path = "../../../../../Users/bb/node-ios/out/Debug/libllhttp.a"; sourceTree = "<group>"; };
+		219ADC9F224D306F003F7B80 /* libv8_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_base.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_base.a"; sourceTree = "<group>"; };
+		219ADCA0224D306F003F7B80 /* libbrotli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbrotli.a; path = "../../../../../Users/bb/node-ios/out/Debug/libbrotli.a"; sourceTree = "<group>"; };
+		219ADCA1224D306F003F7B80 /* libv8_init.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_init.a; path = "../../../../../Users/bb/node-ios/out/Debug/libv8_init.a"; sourceTree = "<group>"; };
+		21A1B7C522529DE100F10E67 /* libv8_libplatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libplatform.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_libplatform.a"; sourceTree = "<group>"; };
+		21A1B7C622529DE100F10E67 /* libv8_libsampler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libsampler.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_libsampler.a"; sourceTree = "<group>"; };
+		21A1B7C722529DE100F10E67 /* libv8_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_base.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_base.a"; sourceTree = "<group>"; };
+		21A1B7C822529DE100F10E67 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libzlib.a"; sourceTree = "<group>"; };
+		21A1B7C922529DE100F10E67 /* libhistogram.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhistogram.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libhistogram.a"; sourceTree = "<group>"; };
+		21A1B7CA22529DE100F10E67 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuv.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libuv.a"; sourceTree = "<group>"; };
+		21A1B7CB22529DE100F10E67 /* libbrotli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbrotli.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libbrotli.a"; sourceTree = "<group>"; };
+		21A1B7CC22529DE100F10E67 /* libv8_nosnapshot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_nosnapshot.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_nosnapshot.a"; sourceTree = "<group>"; };
+		21A1B7CD22529DE100F10E67 /* libnode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnode.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libnode.a"; sourceTree = "<group>"; };
+		21A1B7CE22529DE200F10E67 /* libnghttp2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnghttp2.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libnghttp2.a"; sourceTree = "<group>"; };
+		21A1B7CF22529DE200F10E67 /* libllhttp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libllhttp.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libllhttp.a"; sourceTree = "<group>"; };
+		21A1B7D022529DE200F10E67 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libgtest.a"; sourceTree = "<group>"; };
+		21A1B7D122529DE200F10E67 /* libv8_init.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_init.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_init.a"; sourceTree = "<group>"; };
+		21A1B7D222529DE200F10E67 /* libhttp_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhttp_parser.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libhttp_parser.a"; sourceTree = "<group>"; };
+		21A1B7D322529DE200F10E67 /* libcares.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcares.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libcares.a"; sourceTree = "<group>"; };
+		21A1B7D422529DE200F10E67 /* libv8_initializers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_initializers.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_initializers.a"; sourceTree = "<group>"; };
+		21A1B7D522529DE200F10E67 /* libv8_libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libbase.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libv8_libbase.a"; sourceTree = "<group>"; };
+		21A1B7D622529DE200F10E67 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenssl.a; path = "../../../../../Users/bb/node-ios-backup/out/Debug/libopenssl.a"; sourceTree = "<group>"; };
+		21A1B7FB2252BA6300F10E67 /* libv8_nosnapshot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_nosnapshot.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_nosnapshot.a"; sourceTree = "<group>"; };
+		21A1B7FC2252BA6300F10E67 /* libhttp_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhttp_parser.a; path = "../../../../../Users/bb/node-ios/out/Release/libhttp_parser.a"; sourceTree = "<group>"; };
+		21A1B7FD2252BA6300F10E67 /* libcares.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcares.a; path = "../../../../../Users/bb/node-ios/out/Release/libcares.a"; sourceTree = "<group>"; };
+		21A1B7FE2252BA6300F10E67 /* libv8_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_base.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_base.a"; sourceTree = "<group>"; };
+		21A1B7FF2252BA6300F10E67 /* libv8_init.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_init.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_init.a"; sourceTree = "<group>"; };
+		21A1B8002252BA6300F10E67 /* libbrotli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbrotli.a; path = "../../../../../Users/bb/node-ios/out/Release/libbrotli.a"; sourceTree = "<group>"; };
+		21A1B8012252BA6300F10E67 /* libv8_libplatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libplatform.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_libplatform.a"; sourceTree = "<group>"; };
+		21A1B8022252BA6300F10E67 /* libv8_libsampler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libsampler.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_libsampler.a"; sourceTree = "<group>"; };
+		21A1B8032252BA6300F10E67 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenssl.a; path = "../../../../../Users/bb/node-ios/out/Release/libopenssl.a"; sourceTree = "<group>"; };
+		21A1B8042252BA6300F10E67 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuv.a; path = "../../../../../Users/bb/node-ios/out/Release/libuv.a"; sourceTree = "<group>"; };
+		21A1B8052252BA6300F10E67 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "../../../../../Users/bb/node-ios/out/Release/libzlib.a"; sourceTree = "<group>"; };
+		21A1B8062252BA6300F10E67 /* libv8_libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_libbase.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_libbase.a"; sourceTree = "<group>"; };
+		21A1B8072252BA6300F10E67 /* libv8_initializers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_initializers.a; path = "../../../../../Users/bb/node-ios/out/Release/libv8_initializers.a"; sourceTree = "<group>"; };
+		21A1B8082252BA6300F10E67 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = "../../../../../Users/bb/node-ios/out/Release/libgtest.a"; sourceTree = "<group>"; };
+		21A1B8092252BA6300F10E67 /* libnode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnode.a; path = "../../../../../Users/bb/node-ios/out/Release/libnode.a"; sourceTree = "<group>"; };
+		21A1B80A2252BA6300F10E67 /* libllhttp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libllhttp.a; path = "../../../../../Users/bb/node-ios/out/Release/libllhttp.a"; sourceTree = "<group>"; };
+		21A1B80B2252BA6300F10E67 /* libnghttp2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnghttp2.a; path = "../../../../../Users/bb/node-ios/out/Release/libnghttp2.a"; sourceTree = "<group>"; };
+		21A1B80C2252BA6300F10E67 /* libhistogram.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhistogram.a; path = "../../../../../Users/bb/node-ios/out/Release/libhistogram.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +105,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A1B80D2252BA6300F10E67 /* libv8_nosnapshot.a in Frameworks */,
+				21A1B80E2252BA6300F10E67 /* libhttp_parser.a in Frameworks */,
+				21A1B80F2252BA6300F10E67 /* libcares.a in Frameworks */,
+				21A1B8102252BA6300F10E67 /* libv8_base.a in Frameworks */,
+				21A1B8112252BA6300F10E67 /* libv8_init.a in Frameworks */,
+				21A1B8122252BA6300F10E67 /* libbrotli.a in Frameworks */,
+				21A1B8132252BA6300F10E67 /* libv8_libplatform.a in Frameworks */,
+				21A1B8142252BA6300F10E67 /* libv8_libsampler.a in Frameworks */,
+				21A1B8152252BA6300F10E67 /* libopenssl.a in Frameworks */,
+				21A1B8162252BA6300F10E67 /* libuv.a in Frameworks */,
+				21A1B8172252BA6300F10E67 /* libzlib.a in Frameworks */,
+				21A1B8182252BA6300F10E67 /* libv8_libbase.a in Frameworks */,
+				21A1B8192252BA6300F10E67 /* libv8_initializers.a in Frameworks */,
+				21A1B81A2252BA6300F10E67 /* libgtest.a in Frameworks */,
+				21A1B81B2252BA6300F10E67 /* libnode.a in Frameworks */,
+				21A1B81C2252BA6300F10E67 /* libllhttp.a in Frameworks */,
+				21A1B81D2252BA6300F10E67 /* libnghttp2.a in Frameworks */,
+				21A1B81E2252BA6300F10E67 /* libhistogram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212EEDB2224ADBB100360B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A1B8002252BA6300F10E67 /* libbrotli.a */,
+				21A1B7FD2252BA6300F10E67 /* libcares.a */,
+				21A1B8082252BA6300F10E67 /* libgtest.a */,
+				21A1B80C2252BA6300F10E67 /* libhistogram.a */,
+				21A1B7FC2252BA6300F10E67 /* libhttp_parser.a */,
+				21A1B80A2252BA6300F10E67 /* libllhttp.a */,
+				21A1B80B2252BA6300F10E67 /* libnghttp2.a */,
+				21A1B8092252BA6300F10E67 /* libnode.a */,
+				21A1B8032252BA6300F10E67 /* libopenssl.a */,
+				21A1B8042252BA6300F10E67 /* libuv.a */,
+				21A1B7FE2252BA6300F10E67 /* libv8_base.a */,
+				21A1B7FF2252BA6300F10E67 /* libv8_init.a */,
+				21A1B8072252BA6300F10E67 /* libv8_initializers.a */,
+				21A1B8062252BA6300F10E67 /* libv8_libbase.a */,
+				21A1B8012252BA6300F10E67 /* libv8_libplatform.a */,
+				21A1B8022252BA6300F10E67 /* libv8_libsampler.a */,
+				21A1B7FB2252BA6300F10E67 /* libv8_nosnapshot.a */,
+				21A1B8052252BA6300F10E67 /* libzlib.a */,
+				21A1B7CB22529DE100F10E67 /* libbrotli.a */,
+				21A1B7D322529DE200F10E67 /* libcares.a */,
+				21A1B7D022529DE200F10E67 /* libgtest.a */,
+				21A1B7C922529DE100F10E67 /* libhistogram.a */,
+				21A1B7D222529DE200F10E67 /* libhttp_parser.a */,
+				21A1B7CF22529DE200F10E67 /* libllhttp.a */,
+				21A1B7CE22529DE200F10E67 /* libnghttp2.a */,
+				21A1B7CD22529DE100F10E67 /* libnode.a */,
+				21A1B7D622529DE200F10E67 /* libopenssl.a */,
+				21A1B7CA22529DE100F10E67 /* libuv.a */,
+				21A1B7C722529DE100F10E67 /* libv8_base.a */,
+				21A1B7D122529DE200F10E67 /* libv8_init.a */,
+				21A1B7D422529DE200F10E67 /* libv8_initializers.a */,
+				21A1B7D522529DE200F10E67 /* libv8_libbase.a */,
+				21A1B7C522529DE100F10E67 /* libv8_libplatform.a */,
+				21A1B7C622529DE100F10E67 /* libv8_libsampler.a */,
+				21A1B7CC22529DE100F10E67 /* libv8_nosnapshot.a */,
+				21A1B7C822529DE100F10E67 /* libzlib.a */,
+				219ADCA0224D306F003F7B80 /* libbrotli.a */,
+				219ADC98224D306E003F7B80 /* libcares.a */,
+				219ADC96224D306E003F7B80 /* libgtest.a */,
+				219ADC90224D306E003F7B80 /* libhistogram.a */,
+				219ADC9A224D306E003F7B80 /* libhttp_parser.a */,
+				219ADC9E224D306F003F7B80 /* libllhttp.a */,
+				219ADC9C224D306E003F7B80 /* libnghttp2.a */,
+				219ADC9B224D306E003F7B80 /* libnode.a */,
+				219ADC97224D306E003F7B80 /* libopenssl.a */,
+				219ADC94224D306E003F7B80 /* libuv.a */,
+				219ADC9F224D306F003F7B80 /* libv8_base.a */,
+				219ADCA1224D306F003F7B80 /* libv8_init.a */,
+				219ADC9D224D306F003F7B80 /* libv8_initializers.a */,
+				219ADC91224D306E003F7B80 /* libv8_libbase.a */,
+				219ADC92224D306E003F7B80 /* libv8_libplatform.a */,
+				219ADC95224D306E003F7B80 /* libv8_libsampler.a */,
+				219ADC99224D306E003F7B80 /* libv8_nosnapshot.a */,
+				219ADC93224D306E003F7B80 /* libzlib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		215330D922430EBE006F4A48 = {
 			isa = PBXGroup;
 			children = (
 				215330E422430EBE006F4A48 /* window */,
 				215330E322430EBE006F4A48 /* Products */,
+				212EEDB2224ADBB100360B76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +213,12 @@
 				215330E522430EBE006F4A48 /* AppDelegate.h */,
 				215330E622430EBE006F4A48 /* AppDelegate.m */,
 				215330E822430EBE006F4A48 /* ViewController.h */,
-				215330E922430EBE006F4A48 /* ViewController.m */,
+				215330E922430EBE006F4A48 /* ViewController.mm */,
 				215330EB22430EBE006F4A48 /* Main.storyboard */,
 				215330EE22430EC0006F4A48 /* Assets.xcassets */,
 				215330F022430EC0006F4A48 /* LaunchScreen.storyboard */,
 				215330F322430EC0006F4A48 /* Info.plist */,
-				215330F422430EC0006F4A48 /* main.m */,
+				215330F422430EC0006F4A48 /* main.mm */,
 			);
 			path = window;
 			sourceTree = "<group>";
@@ -141,8 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215330EA22430EBE006F4A48 /* ViewController.m in Sources */,
-				215330F522430EC0006F4A48 /* main.m in Sources */,
+				215330EA22430EBE006F4A48 /* ViewController.mm in Sources */,
+				215330F522430EC0006F4A48 /* main.mm in Sources */,
 				215330E722430EBE006F4A48 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,15 +437,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9452FEMTF;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bb/node-ios/src/",
+					"/Users/bb/node-ios/deps/v8/include/",
+					"/Users/bb/node-ios/deps/v8/",
+				);
 				INFOPLIST_FILE = window/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sweetiebird.window;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/bb/node-ios/out/Debug";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.window;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,15 +464,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9452FEMTF;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bb/node-ios/src/",
+					"/Users/bb/node-ios/deps/v8/include/",
+					"/Users/bb/node-ios/deps/v8/",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/Users/bb/node-ios/deps/v8/include/",
+					"/Users/bb/node-ios/deps/v8/",
+					"/Users/bb/node-ios/src/",
+				);
 				INFOPLIST_FILE = window/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sweetiebird.window;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/bb/node-ios/out/Release";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilykolar.window;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
