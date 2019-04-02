@@ -116,7 +116,13 @@ void nodeStartAsync(void);
 
 @implementation ViewController
 
+//The event handling method
+- (void)handleSingleTap:(UITapGestureRecognizer *)recognizer
+{
+  CGPoint location = [recognizer locationInView:[recognizer.view superview]];
 
+  printf("touch\n");
+}
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -135,6 +141,12 @@ void nodeStartAsync(void);
           nodeStartAsync();
       }]];
     [self presentViewController:alert animated:YES completion:nil];
+
+    //The setup code (in viewDidLoad in your view controller)
+    UITapGestureRecognizer *singleFingerTap = 
+      [[UITapGestureRecognizer alloc] initWithTarget:self 
+                                              action:@selector(handleSingleTap:)];
+    [self.view addGestureRecognizer:singleFingerTap];
 }
 
 @end
